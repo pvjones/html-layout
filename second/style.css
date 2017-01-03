@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.left {
+  background-color: #4a90e2;
+  float: left;
+  width: calc(100%/3);
+  height: 1600px;
+}
+
+.middle {
+  background-color: #50e3c2;
+  float: left;
+  width: calc(100%/3);
+  height: 1600px;
+}
+
+.right {
+  background-color: #b8e986;
+  float: left;
+  width: calc(100%/3);
+  height: 1300px;
+
+}
+
+.image {
+  float:left;
+  background-color: #d0021b;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: sans-serif;
+  width: calc(100%/3);
+  height: 300px;
+  padding: 90px 0px 0px 150px;
+}
